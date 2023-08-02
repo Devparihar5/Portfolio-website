@@ -1,7 +1,10 @@
+/* Importing the Inter font family from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-* {font-family: 'Inter';}
-
+/* Applying the Inter font family to all elements */
+* {
+  font-family: 'Inter';
+}
 
 /* Home page styles */
 .title {
@@ -30,7 +33,6 @@ ul {
   list-style-type: none;
 }
 
-
 /* Animated home profile image styles */
 .container {
   height: 400px;
@@ -44,16 +46,16 @@ ul {
   width: 300px;
   height: 300px;
   position: relative;
+}
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    transform: scale(1.42);
-  }
+.box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: scale(1.42);
 }
 
 .spin-container {
@@ -97,9 +99,14 @@ ul {
   object-fit: cover;
 }
 
+/* Keyframes animations */
 @keyframes morph {
-  0% {border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;} 
-  100% {border-radius: 40% 60%;} 
+  0% {
+    border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+  }
+  100% {
+    border-radius: 40% 60%;
+  }
 }
 
 @keyframes spin {
@@ -108,8 +115,14 @@ ul {
   }
 }
 
-
 /* Hide Streamlit default elements */
-#MainMenu {visibility: hidden;}
-header {visibility: hidden;}
-/* footer {visibility: hidden;} */
+#MainMenu {
+  visibility: hidden;
+}
+
+header {
+  visibility: hidden;
+}
+/* footer {
+  visibility: hidden;
+} */
