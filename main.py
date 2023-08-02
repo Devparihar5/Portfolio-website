@@ -60,7 +60,6 @@ def home():
         "LinkedIn": ["https://www.linkedin.com/in/devendra-parihar", "https://cdn-icons-png.flaticon.com/512/174/174857.png"],
         "GitHub": ["https://github.com/devparihar5", "https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg"],
         "Twitter": ["https://twitter.com/Devendr74154261", "https://cdn-icons-png.flaticon.com/512/733/733579.png"]
-        # "Medium": ["https://medium.com/@enricdomingo", "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png"]
     }
 
     social_icons_html = [f"<a href='{social_icons_data[platform][0]}' target='_blank' style='margin-right: 10px;'><img class='social-icon' src='{social_icons_data[platform][1]}' alt='{platform}'></a>" for platform in social_icons_data]
@@ -103,7 +102,5 @@ def home():
 
     st.write("##")
 
-
 if __name__ == "__main__":
-
     home()
