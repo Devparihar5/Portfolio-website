@@ -85,7 +85,7 @@ def home():
     
     - 🤖 I enojoy developing projects such as [Check on github](https://github.com/devparihar5) and participating at platforms like [Kaggle](https://www.kaggle.com/dev523) 📈
 
-    - 📫 How to reach me: devendraparihar340@kainskep.com
+    - 📫 How to reach me: devendraparihar340@gmail.com
     
     - 🏠 Jodhpur, Rajasthan, India
     """)
